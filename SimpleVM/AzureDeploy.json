@@ -108,20 +108,6 @@
                         }
                     },
                     {
-                        "name": "Deny-WMI",
-                        "properties": {
-                            "description": "Block WMI Connection",
-                            "protocol": "Tcp",
-                            "sourcePortRange": "*",
-                            "destinationPortRange": "135",
-                            "sourceAddressPrefix": "Internet",
-                            "destinationAddressPrefix": "*",
-                            "access": "Deny",
-                            "priority": 140,
-                            "direction": "Inbound"
-                        }
-                    },
-                    {
                         "name": "Deny-SQL",
                         "properties": {
                             "description": "Block SQL Connection",
